@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic,;
+}
+
+body { 
+  margin:0;
+  padding:0;
+  height: 100%;
+}
+
+#Video{
+	position: fixed;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+header{
+    background-image: url(images/12.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul {
+    margin: auto;
+    width: 60%;
+    padding: 30px;
+    position: relative;
+    list-style-type: none;
+	z-index: 1;
+}
+
+@media screen and (max-width: 600px){
+	ul {
+		width-left:50%;
+		left:20%;
+		right:0;
+		font-size: 400%;
+		
+	}
+}
+
+ul li{
+    display: inline-block;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 40px;
+    border: 1px solid #transparent;
+    transition: 0.4s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.logo img{
+
+    width: 150px;
+    height: auto;
+	position: absolute;
+	top: 2%;
+	left: 2%;
+	right: 0;
+}
+
+.main {
+  text-align: center;
+  font: Century Gothic;
+}
+
+.title{
+	position: absolute;
+	margin: auto;
+	width: 50%;
+	top: 20%;
+	left: 50%;
+	right: 50%;
+	border: 5px solid;
+	padding: 30;
+	border-color: white;
+	text-shadow: 0 0px 10px black;
+	transform: translate(-50%,-50%);
+	font-size: 100%;
+	color: #fff;
+	font-style: Fantasy;
+	z-index: 2;
+}
+
+@media screen and (max-width: 600px) {
+	.title{
+	position: fixed;
+	}
+}
+
+.title h1{
+	color: #fff;
+	font-size: 300%;
+	font-family: Sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+	.title{
+	font-size: 300%;
+	}
+}
+
+.BOX{
+    position: absolute;
+	margin-right: 50%;
+	width: 100%;
+	top: 25%;
+	z-index: 0;
+}
+
+@media screen and (max-width: 600px){
+  .BOX{
+	top: 222%;
+	width: auto;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .BOX img{
+	transform: scale(3);
+  }
+}
+
+#p{
+	position: absolute;
+	margin: auto;
+	top: 275px;
+	left: 0;
+	right: 0;
+	color: #fff;
+	font-family: Fantasy;
+	font-style: bold;
+	font-size: 300%;
+}
+
+@media screen and (max-width: 600px){
+  #p{
+	position: absolute;
+	top: -30%;
+	left: 65%;
+	font-size: 600%;
+  }
+}
+
+#s{
+  position: absolute;
+  top: 42%;
+  margin: auto;
+  width: 30%;
+	left: 0;
+	right: 0;
+  color: #fff;
+  font-family: Serif;
+  font-style: bold;
+  font-size: 100%;
+   text-align: left;
+
+}
+
+@media screen and (max-width: 600px){
+	#s{
+  top: 20%;
+  width:auto;
+  font-size: 340%;
+	}
+}
+
+#F{
+	transform: scale(0.2);
+	opacity: 100%;
+	z-index: 2;
+	margin-top: -60%;
+}
+
+@media screen and (max-width: 600px){#F{
+	margin-top: -10%;
+	margin-right: 400;
+}
+}
+#BOX{
+	opacity: 80%;
+}
